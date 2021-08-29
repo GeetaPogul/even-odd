@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Even </title>
+</head>
+<body>
+
+    <label>Enter number</label>
+    <input type="text" id="input" />
+    <button onclick="change()" > Click</button>
+
+    <script>
+    
+
+    function change(){
+
+        var input = document.getElementById("input").value;
+        if( input %2==0)
+        {
+            document.write("Is even number");
+        }
+       else{
+        document.write("Is odd number");
+    }
+}
+    
+    
+    </script>
+</body>
+</html>
